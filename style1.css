@@ -1,0 +1,30 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image: url(https://previews.123rf.com/images/maudis60/maudis601608/maudis60160800027/61901656-abstract-painting-color-texture-bright-artistic-background-in-red-and-yellow.jpg);
+
+	background-size:cover;
+	background-position:center;
+	
+	font-family:sans-serif;
+}
+#abc,.menu-bar{
+	background:rgb(0,100,0);
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color:#fff;
+}
+.menu-bar ul li{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color:#fff;
+}

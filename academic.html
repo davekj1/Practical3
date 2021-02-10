@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Academic Details</title>
+	<style>
+	*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?size=626&ext=jpg");
+	background-size:cover;
+	background-position:center;
+	
+	font-family:sans-serif;
+}
+.menu-bar{
+	background:orange;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color:#fff;
+}
+.menu-bar ul li{
+	width:120px;
+	margin:15px;
+	padding:15px;
+	padding-bottom: 0px;
+	padding-top:0px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color:#fff;
+}
+div img{
+	width:150px;
+	height:150px;
+	position:relative;
+	top:120px;
+	left:200px;
+}
+#abc{
+	color:white;
+	padding-top:60px;
+	padding-left: 400px;
+}
+#abc div a:link,a:visited{
+	color:yellow;
+}
+#cde{
+	color:white;
+}
+span{
+	color:red;
+}
+.div1{
+	float:left;
+}
+form{
+	color:white;
+}
+form div{
+	float:left;
+	width:33.33%;
+	text-align: center;
+}
+
+</style>
+</head>
+<body>
+	<div class="menu-bar">
+	<ul>
+	<li><a href="sign_register.html" >Sign in </a></li>
+	<li><a href="sign_up.html">Sign Up</a></li>
+	<li><a href="pid.html">Personal Information Details</a></li>
+	<li><a href="academic.html">Academic Details</a></li>
+	<li><a href="contact_details.html">Contact Details</a></li>
+	<li><a href="declaration.html">Declaration</a></li>
+</div>
+<form>
+	<h2>Academic Details</h2><br><br>
+	<p><label>Are you a student?&nbsp;&nbsp;</p>
+	<label>&emsp;Yes</label>&emsp;<input type="radio">&emsp;
+	<label>No</label>&emsp;<input type="radio">
+</div><br><br>
+	<p>If yes ,then enter following information:</p><br>
+	<div><label>Select current qualification<span>*</span></label><br><br>
+		<select  value="qual">
+		<option value="ssc">SSC</option>
+		<option value="hssc">HSSC</option>
+		<option value="ug">Undergraduate</option>
+		<option value="grad">Graduate</option> 
+	</select>
+	</div>
+	<div><label>Enter School College Name<span>*</span></label><br><br>
+		<input type="text">
+	
+	</div>
+	<div><label>Year of passing<span>*</span></label><br><br>
+		<input type="text">
+	</div>
+	<div><br><br><label>Additional Courses(Optional)<span>*</span></label><br><br>
+		<input type="text">
+
+	</div>
+	<div><br><br><label>Percentage<span>*</span></label><br><br>
+		<input type="text">
+
+	</div>
+	<div><br><br><label>Upload the marksheet of last exam<span>*</span></label><br><br>
+		<input type="file">
+			<br>
+	</div>
+	<p style="position: relative;top:2em;">Are you a professional?</p>
+		<br><br>&emsp;<label>Yes&emsp;</label><input type="radio"><label>&emsp;No&emsp;<input type="radio"></label>
+		<br>
+	</p><br>
+	<p>If yes,then enter following details:</p>
+	<div><br><label>Enter your specializtion<span>*</span></label><br><br>
+		<input type="text">
+	</div>
+	<div><br><label>Years of experience<span>*</span></label><br><br>
+		<input type="text">
+	</div>
+	<div><br><label>Achievements<span>*</span></label><br><br>
+		<input type="text">
+	</div>
+	<div><br><label>Company Name<span>*</span></label><br><br>
+		<input type="text" size="20">
+	</div>
+	<div><br><label>Occupation<span>*</span></label><br><br>
+		<input type="text" size="20">
+	</div>
+	<div><br><label>Designation<span>*</span></label><br><br>
+		<input type="text" size="20">
+	</div><br><br><br>
+	<a href="contact_details.html"><input type="button" value="Save and next" style="padding: 10px;position: relative;top:35px;left:45%"></a>
+</form>
+</html>
